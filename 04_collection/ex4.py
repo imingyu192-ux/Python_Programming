@@ -135,3 +135,6 @@ a = tuple(zip(*stocks))[1]
 b = tuple(zip(*stocks))[2]
 s = [a[i] * b[i] for i in range(0, 3)]                                             # ✅ 총액: 21,000원
 print(sum(s))
+
+total = sum(price * qty for _,price,qty in stocks)
+print(total)
