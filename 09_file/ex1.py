@@ -104,4 +104,4 @@ try:
     with open(os.path.join(BASE_DIR, "hello.txt"), "r", encoding="utf-8") as f:
         print(f.read())
 except FileNotFoundError as e:
-    print("파일을 찾을 수 없습니다.", e)
+    print("파일을 찾을 수 없습니다.", e)  
