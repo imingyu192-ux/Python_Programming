@@ -97,8 +97,8 @@ class Student:
         print("DELETE ALL 완료")
 
     # 연결 종료
-    def close(self):
-        self.conn.close()
+    def close(self):         
+        self.conn.close()     
 
 
 # ===========================================================
